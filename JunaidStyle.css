@@ -1,0 +1,40 @@
+body{
+  background: #8799fd;
+  background: -moz-linear-gradient(-45deg, #8799fd 0%, #536df1 40%, #0526e1 100%);
+  background: -webkit-linear-gradient(-45deg, #8799fd 0%,#536df1 40%,#0526e1 100%);
+  background: linear-gradient(135deg, #8799fd 0%,#536df1 40%,#0526e1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8799fd', endColorstr='#0526e1',GradientType=1 );
+
+text-align: center;
+}
+p{
+    font-family: "Raleway";
+}
+h1{
+    font-family: "Raleway";
+}
+button {
+    background-color: #ffffff; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 100px;
+  }
+  
+button:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
